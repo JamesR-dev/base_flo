@@ -14,6 +14,8 @@ class BASE_FLO_API APlayer_Char : public ACharacter
 public:
 	// Sets default values for this character's properties
 	APlayer_Char();
+	UFUNCTION(BlueprintCallable, Category = "Attack")
+		void Attack();
 
 protected:
 	// Called when the game starts or when spawned

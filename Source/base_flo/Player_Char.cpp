@@ -31,4 +31,9 @@ void APlayer_Char::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
+void APlayer_Char::Attack()
+{
+	//run attack code
+
+}
 
